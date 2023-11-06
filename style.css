@@ -1,0 +1,52 @@
+body{
+    background: linear-gradient(to right, #B85042, #A7BEAE);
+    height: 100vh;
+}
+
+h1, h2{
+    color: #E7E8D1;
+}
+
+.cell{
+    height: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+#gameContainer{
+    padding-top: 5.5%;
+    font-family: 'Rubik Pixels', cursive;
+    text-align: center;
+    
+
+}
+
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 255px;
+    margin: auto;
+}
+
+.btn{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.429);
+    box-shadow: 2px 3px 2px #e7e8d17e;
+    font-family: "Rubik Pixels", cursive;
+}
+.btn:hover{
+    background-color: #E7E8D1;
+    transform: all 100ms ease-in-out;
+}
+
+.btn:active {
+    transform: scale(0.7);
+}
